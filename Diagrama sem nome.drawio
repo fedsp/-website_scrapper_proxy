@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.4">
   <diagram name="Página-1" id="oTaiG2rIHqSgLkZ1_f3R">
-    <mxGraphModel dx="1680" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1428" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,12 +47,18 @@
           <mxGeometry x="151" y="450" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="B5jQtMlMlFDZpYIzIw2--30" value="Internet" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="30" width="250" height="360" as="geometry" />
+          <mxGeometry x="840" y="30" width="550" height="360" as="geometry" />
         </mxCell>
         <mxCell id="B5jQtMlMlFDZpYIzIw2--37" value="Server to be reached" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" parent="1" vertex="1">
-          <mxGeometry x="890" y="130" width="144" height="180" as="geometry" />
+          <mxGeometry x="1230" y="130" width="144" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="B5jQtMlMlFDZpYIzIw2--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="B5jQtMlMlFDZpYIzIw2--41" target="B5jQtMlMlFDZpYIzIw2--37" edge="1">
+        <mxCell id="uVGcmKRYqGthIEnD-wxL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uVGcmKRYqGthIEnD-wxL-1" target="B5jQtMlMlFDZpYIzIw2--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVGcmKRYqGthIEnD-wxL-1" value="Residential Proxy" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.proxy;" vertex="1" parent="1">
+          <mxGeometry x="890" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uVGcmKRYqGthIEnD-wxL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B5jQtMlMlFDZpYIzIw2--41" target="uVGcmKRYqGthIEnD-wxL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
